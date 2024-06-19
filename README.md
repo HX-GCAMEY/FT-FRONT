@@ -7,3 +7,6 @@
 
 ### React/TypeScript
 [Google Slides - React/TypeScript](https://docs.google.com/presentation/d/1Fxq0O-wNJbE6O7HXK7_0ByuDkgewvhJGS2fpCZnARxc/edit?usp=sharing)
+
+### Next Fundamentals
+[Google Slides - React/TypeScript](https://docs.google.com/presentation/d/189EtmvK0HnVcEUDUOXqCPXawTEJCHijnK1QxHmb-w3M/edit?usp=sharing)
