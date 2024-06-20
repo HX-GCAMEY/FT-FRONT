@@ -5,4 +5,18 @@ interface IButtonProps {
   className?: string;
 }
 
-export type {IButtonProps};
+interface IEvent {
+  id: number;
+  title: string;
+  description: string;
+  location: string;
+  date: string;
+  image: string;
+  notify: boolean;
+}
+
+interface IEventsProps {
+  events: IEvent[];
+}
+
+export type {IButtonProps, IEvent, IEventsProps};
