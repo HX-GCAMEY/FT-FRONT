@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.container {
+  @apply flex m-4 p-5 w-1/2;
+}
+
 body {
   margin: 0;
   padding: 0;

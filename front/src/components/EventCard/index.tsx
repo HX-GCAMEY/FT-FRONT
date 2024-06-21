@@ -6,9 +6,17 @@ function EventCard({event}: {event: IEvent}) {
   const {id, title, image, date, location} = event;
 
   return (
-    <li>
-      <Image src={`/${image}`} alt={title} width={300} height={300} />
-      <div>
+    <div className="flex w-auto items-center border border-blue-900 rounded-md shadow-sm">
+      <div className="relative object-contain w-36 h-36 rounded-t-lg">
+        <Image
+          src={`/${image}`}
+          alt={title}
+          fill={true}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          priority={true}
+        />
+      </div>
+      <div className="m-2 justify-center">
         <div>
           <h2>{title}</h2>
           <div>
@@ -24,7 +32,7 @@ function EventCard({event}: {event: IEvent}) {
           </div>
         </div>
       </div>
-    </li>
+    </div>
   );
 }
 
