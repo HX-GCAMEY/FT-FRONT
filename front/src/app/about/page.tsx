@@ -1,9 +1,5 @@
 function About() {
-  return (
-    <div>
-      <h1>Estas en el about</h1>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default About;

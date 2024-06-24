@@ -38,6 +38,10 @@ function CustomNav() {
           Events
         </NavbarLink>
 
+        <NavbarLink as={Link} href="/pokemon">
+          Pokemons
+        </NavbarLink>
+
         <Dropdown label="About" inline>
           <DropdownItem>
             <NavbarLink as={Link} href="/about/me">
