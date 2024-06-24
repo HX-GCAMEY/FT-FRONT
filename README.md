@@ -11,8 +11,17 @@
 [Google Slides - React/TypeScript](https://docs.google.com/presentation/d/1Fxq0O-wNJbE6O7HXK7_0ByuDkgewvhJGS2fpCZnARxc/edit?usp=sharing)
 
 ### Next Fundamentals
+
 [Google Slides - Fundamentals](https://docs.google.com/presentation/d/189EtmvK0HnVcEUDUOXqCPXawTEJCHijnK1QxHmb-w3M/edit?usp=sharing)
 
 ### Next Routing
 
 [Google Slides - Routing](https://docs.google.com/presentation/d/1-TSuPsT69ZzfqbbQSwdkKolRT87k7Qi3/edit?usp=sharing&ouid=111345539982328960069&rtpof=true&sd=true)
+
+### Next Tailwind
+
+[Google Slides - Tailwind](https://docs.google.com/presentation/d/1rD4eutKD8IdyGnDUEinonhREQR7PaPNS/edit?usp=sharing&ouid=111345539982328960069&rtpof=true&sd=true)
+
+### Next Components
+
+[Google Slides - Components](https://docs.google.com/presentation/d/1CLziFsM05dlACq1hfb14xEgkTqgQS5D0/edit?usp=sharing&ouid=111345539982328960069&rtpof=true&sd=true)
