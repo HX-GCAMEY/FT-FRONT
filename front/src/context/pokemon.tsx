@@ -1,14 +1,15 @@
 "use client";
 
 import {useState, createContext, useEffect} from "react"; //redux, zustand
+import {IPokemon, IPokemonContext} from "@/interfaces";
 import axios from "axios";
 
-export const PokemonContext = createContext({
+export const PokemonContext = createContext<IPokemonContext>({
   pokemons: [],
 });
 
 export const PokemonProvider = ({children}: {children: React.ReactNode}) => {
-  const [pokemons, setPokemons] = useState([]);
+  const [pokemons, setPokemons] = useState<IPokemon[]>([]);
 
   useEffect(() => {
     const getPokemons = async () => {
@@ -26,7 +27,7 @@ export const PokemonProvider = ({children}: {children: React.ReactNode}) => {
   }, []);
 
   return (
-    <PokemonContext.Provider value={pokemons}>
+    <PokemonContext.Provider value={{pokemons}}>
       {children}
     </PokemonContext.Provider>
   );

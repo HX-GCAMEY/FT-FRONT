@@ -5,6 +5,11 @@ interface IButtonProps {
   className?: string;
 }
 
+interface IPokemon {
+  name: string;
+  url: string;
+}
+
 interface IEvent {
   id: number;
   title: string;
@@ -15,8 +20,12 @@ interface IEvent {
   notify: boolean;
 }
 
+interface IPokemonContext {
+  pokemons: IPokemon[];
+}
+
 interface IEventsProps {
   events: IEvent[];
 }
 
-export type {IButtonProps, IEvent, IEventsProps};
+export type {IButtonProps, IEvent, IEventsProps, IPokemon, IPokemonContext};
