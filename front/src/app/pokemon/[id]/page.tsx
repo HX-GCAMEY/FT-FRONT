@@ -1,15 +1,5 @@
 import Image from "next/image";
-
-export async function fetchPokemon(id: string) {
-  try {
-    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`);
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error("Error fetching pokemon", error);
-    return {};
-  }
-}
+import {fetchPokemon} from "@/lib/server/fetchPokemons";
 
 async function PokemonDetail({params}: {params: {id: string}}) {
   const pokemon = await fetchPokemon(params.id);
