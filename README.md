@@ -25,3 +25,11 @@
 ### Next Components
 
 [Google Slides - Components](https://docs.google.com/presentation/d/1CLziFsM05dlACq1hfb14xEgkTqgQS5D0/edit?usp=sharing&ouid=111345539982328960069&rtpof=true&sd=true)
+
+### Next Data Fethcing
+
+[Google Slides - Data Fetching](https://docs.google.com/presentation/d/13WX948tSkEju5gjGv3BSsuKfgvsNJBwg/edit?usp=sharing&ouid=111345539982328960069&rtpof=true&sd=true)
+
+### Next Auth
+
+[Google Slides - Auth](https://docs.google.com/presentation/d/12NPgqHuA_t1zMu_VoXSNFFTlBtj-dGxm/edit?usp=sharing&ouid=111345539982328960069&rtpof=true&sd=true)
