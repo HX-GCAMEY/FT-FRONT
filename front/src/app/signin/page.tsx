@@ -29,7 +29,9 @@ function SiginForm() {
     })
       .then((res) => res.json())
       .then((data) => {
-        localStorage.setItem("token", data.token);
+        typeof window !== "undefined"
+          ? localStorage.setItem("token", data.token)
+          : null;
       })
       .catch((err) => {
         console.error(err);

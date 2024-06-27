@@ -6,10 +6,13 @@ import {useRouter} from "next/navigation";
 
 function You() {
   const router = useRouter();
-  const [token, setToken] = useState(localStorage.getItem("token"));
+  const [token, setToken] = useState(
+    typeof window !== "undefined" ? localStorage.getItem("token") : null
+  );
 
   useEffect(() => {
-    const token = localStorage.getItem("token");
+    const token =
+      typeof window !== "undefined" ? localStorage.getItem("token") : null;
     setToken(token);
   }, []);
 
@@ -20,7 +23,9 @@ function You() {
         <CustomButton
           text="Logout"
           onClick={() => {
-            localStorage.removeItem("token");
+            typeof window !== "undefined"
+              ? localStorage.removeItemItem("token")
+              : null;
             setToken(null);
           }}
         />
