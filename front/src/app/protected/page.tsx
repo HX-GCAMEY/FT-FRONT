@@ -5,7 +5,9 @@ import {useRouter} from "next/navigation";
 import CustomButton from "@/components/CustomButton";
 
 function ProtectedPage() {
-  const [token, setToken] = useState(localStorage.getItem("token") || null);
+  const [token, setToken] = useState(
+    typeof window !== "undefined" ? localStorage.getItem("token") : null
+  );
   const router = useRouter();
 
   useEffect(() => {
@@ -23,7 +25,9 @@ function ProtectedPage() {
           <CustomButton
             text="Logout"
             onClick={() => {
-              localStorage.removeItem("token");
+              typeof window !== "undefined"
+                ? localStorage.removeItem("token")
+                : null;
               setToken(null);
               router.push("/signin");
             }}
