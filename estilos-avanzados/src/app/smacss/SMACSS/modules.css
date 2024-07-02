@@ -1,0 +1,46 @@
+.main-container {
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.character-list {
+  display: grid;
+  list-style: none;
+  padding: 0;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.character-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.character-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.character-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.character-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.character-species {
+  font-size: 14px;
+  color: gray;
+}

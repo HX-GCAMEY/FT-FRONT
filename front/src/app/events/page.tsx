@@ -1,5 +1,9 @@
 import events from "../../../public/data";
-import EventsList from "@/components/EventsList";
+import dynamic from "next/dynamic";
+
+const EventsList = dynamic(() => import("@/components/EventsList"), {
+  loading: () => <p>Loading...</p>,
+});
 
 function EventsPage() {
   return (

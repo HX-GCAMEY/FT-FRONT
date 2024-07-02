@@ -44,7 +44,7 @@ function CustomNav() {
 
         <Dropdown label="About" inline>
           <DropdownItem>
-            <NavbarLink as={Link} href="/about/me">
+            <NavbarLink as={Link} href="/about/me" tabIndex={-1}>
               Me
             </NavbarLink>
           </DropdownItem>

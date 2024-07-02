@@ -1,0 +1,62 @@
+/* Bloque */
+
+.main-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Element title */
+.main-container__title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.character-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Bloque */
+.character-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.character-item--selected {
+  background-color: #666;
+}
+
+.character-item:hover {
+  transform: scale(1.05);
+}
+
+.character-item__image {
+  width: 100%;
+  height: auto;
+}
+
+.character-item__details {
+  padding: 10px;
+}
+
+.character-item__name {
+  font-size: 1.5em;
+  margin: 10px 0 5px;
+}
+
+.character-item__species {
+  font-size: 1em;
+  color: #666;
+}

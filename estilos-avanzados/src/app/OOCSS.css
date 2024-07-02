@@ -1,0 +1,71 @@
+.main-container {
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.character-list {
+  display: grid;
+  list-style: none;
+  width: 90%;
+  padding: 0;
+  grid-template-columns: repeat(3, 30%);
+  gap: 20px;
+}
+
+.character-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.character-image {
+  min-width: 70%;
+  height: auto;
+}
+
+.character-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.character-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.character-species {
+  font-size: 14px;
+  color: gray;
+}
+
+@media screen and (max-width: 390px) {
+  .character-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .character-item {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .character-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .character-item {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
