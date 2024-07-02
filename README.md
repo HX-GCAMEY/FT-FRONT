@@ -33,3 +33,17 @@
 ### Next Auth
 
 [Google Slides - Auth](https://docs.google.com/presentation/d/12NPgqHuA_t1zMu_VoXSNFFTlBtj-dGxm/edit?usp=sharing&ouid=111345539982328960069&rtpof=true&sd=true)
+
+
+### Next SEO & Optimization
+
+[Google Slides - SEO & Optimization](https://docs.google.com/presentation/d/1BbILAqqv5uRbLZJqeFghVmxmxc3U03Mh/edit?usp=sharing&ouid=111345539982328960069&rtpof=true&sd=true)
+
+### Next Testing
+
+[Google Slides - Testing](https://docs.google.com/presentation/d/1SPXJ81a6osHlTNHXsOIwQwk7VE9pbKmT/edit?usp=sharing&ouid=111345539982328960069&rtpof=true&sd=true)
+
+
+### Next Advanced Styles
+
+[Google Slides - Advanced Styles](https://docs.google.com/presentation/d/19DZ2MLVfvnSa_l5Zu6d1zTrNzCLi2clM/edit?usp=sharing&ouid=111345539982328960069&rtpof=true&sd=true)
