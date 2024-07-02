@@ -1,0 +1,50 @@
+.box {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 12px;
+  background-color: rgb(95, 4, 242);
+  transition-property: width;
+  transition-duration: 1s;
+}
+
+.box1 {
+  transition-timing-function: ease;
+}
+
+.box2 {
+  transition-timing-function: linear;
+}
+
+.box3 {
+  transition-timing-function: ease-in;
+}
+
+.box4 {
+  transition-timing-function: ease-out;
+}
+
+.box5 {
+  transition-timing-function: ease-in-out;
+}
+
+.box6 {
+  transition-timing-function: step-start;
+}
+
+.box7 {
+  transition-timing-function: step-end;
+  transition-delay: 1s;
+}
+
+.box8 {
+  transition-timing-function: steps(5, end);
+}
+
+.box9 {
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.box:hover {
+  width: 500px;
+}
